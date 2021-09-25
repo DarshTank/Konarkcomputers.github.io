@@ -1,0 +1,742 @@
+body{
+    background: #fff;
+    background-size: cover;
+    background-position: relative;
+    height: 100vh;
+}
+
+.konark{
+    margin: 0;
+    padding: 0;
+}
+
+.info{
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 6px 0px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.big{
+    margin-left: 8%;
+    top: 2%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    margin-top: 13%;
+}
+
+.h2{
+    margin-top: 26%;
+    margin-left: -5%;
+    margin-bottom: 0;
+    font-family: arial rounded mt;
+    font-size: 50px;
+    font-weight: 800;
+    color: black;
+    line-height: 0;
+}
+
+.h{
+    margin-top: 8%;
+    margin-left: 4%;
+    font-family:  arial rounded mt;
+    font-size: 26px;
+    font-weight: 500;
+    color: blue;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+    margin-left: 2%;
+}
+
+.container .contactinfo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .contactinfo .box{
+    position: relative;
+    padding: 0;
+    display: flex;
+    margin-right: 5%;
+}
+
+.container .contactinfo .box .icon{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.container .contactinfo .box .text{
+    width: 100%;
+    display: flex;
+    margin-top: -13%;
+    color: black;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.container .contactinfo .box .text h3{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    margin-bottom: -12%;
+}
+
+.btn{
+    margin-left: 5%;
+}
+
+.inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 7%;
+}
+
+.inputbox input{
+    color: rgba(32, 12, 212,0.8);
+    font-family: poppins;
+    background: #fff;
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    margin-top: 0;
+    margin-left: -35%;
+    border: 2px solid rgba(32, 12, 212,0.8);
+    border-radius: 2px;
+}
+
+.inputbox input:hover{
+    background: rgba(32, 12, 212,0.8);
+    color: #fff;
+}
+
+.menu-area{
+    background: #262626;
+    position: absolute;
+    width: 100%;
+    height: 78px;
+    left: 0;
+    padding: 0;
+}
+
+.menu-area ul{
+    list-style: none;
+    display: flex;
+    margin-left: 3%;
+}
+
+.menu-area ul li{
+    margin-left: 4%;
+}
+
+.menu-area ul li a{
+    line-height: 52px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.menu-area ul li a:hover{
+    color: aqua;
+}
+
+.inbox{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 80%;
+    margin-top: 1.5%;
+}
+
+.logo{
+    margin-right: 10%;
+    min-width: 40px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.logo:hover{
+    border: 2px solid #fff;
+    background: #262626;
+}
+
+.photo{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    margin-top: 3.1%;
+    left: 0;
+}
+
+.photo .slider{
+    position: absolute;
+    width: 500%;
+    height: 100%;
+    animation: animate 20s linear infinite;
+}
+
+.photo .slider .slide{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.photo .slider .slide.slider1{
+    background: url(img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photo .slider .slide.slider2{
+    background: url(img2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photo .slider .slide.slider3{
+    background: url(img3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photo .slider .slide.slider4{
+    background: url(img4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        left: 0%;
+    }
+    20%
+    {
+        left: 0%;
+    }
+    25%
+    {
+        left: -100%;
+    }
+    45%
+    {
+        left: -100%;
+    }
+    50%
+    {
+        left: -200%;
+    }
+    70%
+    {
+        left: -200%;
+    }
+    75%
+    {
+        left: -300%;
+    }
+    95%
+    {
+        left: -300%;
+    }
+    100%
+    {
+        left: -400%;
+    }
+}
+
+.fast{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 2%;
+}
+
+.main{
+    margin-top: 11%;
+    margin-bottom: 7%;
+    width: 95%;
+    margin-left: 2.8%;
+    display: flex;
+    position: relative;
+}
+
+.write{
+    background: #fff;
+    width: 235px;
+    height: 520px;
+    padding: 40px 40px;
+    margin-right: 2%; 
+    opacity: 0.5;  
+    border: 5px solid grey;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.1);
+}
+
+.fast .main .write h3{
+    font-size: 22px;
+    text-decoration: uppercase;
+}
+
+.fast .main .write .pera{
+    font-size: 18px;
+}
+
+.write:hover{
+    opacity: 1;
+    border: 5px solid rgba(32, 12, 212,0.8);
+}
+
+.heading{
+    text-align: center;
+    margin-left: 6%;
+    color: darkslategray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 58%;
+    margin-bottom: 5%;
+}
+
+.service{
+    margin-top: 123%;
+    width: 100%;
+    padding: 0;
+}
+
+.inside{
+    position: absolute;
+    width: 99.9%;
+    height: 80%;
+    background: linear-gradient(rgba(0,0,0, 0.4),rgba(0, 0, 0, 0.5)),url(disco.jpg);
+    background-position: center;
+    background-size: cover;
+    left: 0;
+    background-attachment: fixed;
+}
+
+.margin{
+    margin-top: 6%;
+}
+
+.process{
+    text-align: center;
+}
+
+.process h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+
+.process h4{
+    margin-top: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex{
+    margin-top: 3%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 0%;
+}
+
+.flex .num{
+    margin-top: 3%;
+    position: relative;
+    margin-right: 5%;
+}
+
+.flex .num .damage{
+    display: flex;
+    position: relative;
+}
+
+.flex .num .damage .a{
+    font-size: 80px;
+    color: #fff;
+    margin-top: 4%;
+    margin-right: 9%;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex .num .damage .b{
+    margin-top: 12%;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.flex .num .just .juss{
+    margin-top: 2%;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.service .inside:hover .a{
+    transition: 0.5s;
+    color: blue;
+}
+
+.service .inside:hover .b{
+    transition: 0.5s;
+    color: #fff;
+}
+
+.lo{
+    margin: 0;
+    padding: 0;
+}
+
+.ronaldo{
+    position: absolute;
+    margin-top: 42%;
+    width: 90%;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.messi{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.foot{
+    width: 90%;
+    border-bottom: 6px solid rgba(32, 12, 212,0.6);
+    margin-left: 11%;
+    margin-right: 5%;
+}
+
+.alex{
+    position: relative;
+    display: flex;
+}
+
+.alex h2{
+    margin-top: 0;
+    margin-right: 3%;
+    color: rgba(32, 12, 212,0.6);
+    font-size: 70px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.alex .adani{
+    margin-top: 3%;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cricket{
+    margin-top: 0;
+    padding: 0;
+}
+
+.cricket .dhoni{
+    margin-top: -5%;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+}
+
+.cricket .kohli{
+    margin-top: 0%;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+}
+
+.cricket .boom{
+    margin-top: 8%;
+    font-size: 21px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.sub-btn{
+    position: relative;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.sub-btn button{
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    background: rgba(32, 12, 212,0.6);
+    width: 60%;
+    justify-content: right;
+    padding: 15px 0px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+.sub-btn a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+.youtube{
+    margin-top: 85%;
+    width: 100%;
+    padding: 0;
+}
+
+.ashish{
+    margin-top: 6%;
+    display: flex;
+    margin-left: 2%;
+}
+
+.carry{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background: linear-gradient(rgba(0,0,0, 0.4),rgba(0, 0, 0, 0.5)),url(add.jpg);
+    left: 0;
+    background-attachment: fixed;
+}
+
+.rohit{
+    width: 28%;
+    margin-left: 4%;
+    margin-right: 3%;
+    line-height: 23px;
+}
+
+.hit{
+    border-bottom: 1px solid #fff;
+}
+
+.hit h3{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.hit .peragraph{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 14%;
+}
+
+.rohit img{
+    margin-top: 7%;
+}
+
+.hockey{
+    width: 22%;
+    margin-right: 3%;
+}
+
+.neeraj{
+    display: flex;
+}
+
+.neeraj h3{
+    margin-top: 8%;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.disco{
+    margin-top: -9%;
+}
+
+.vatsal{
+    margin-top: 0;
+    display: flex;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -5%;
+}
+
+.vatsal h4{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vatsal .see{
+    margin-top: 12%;
+    margin-left: 11%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vinit{
+    display: flex;
+    margin-top: -2%;
+    cursor: pointer;
+}
+
+.vinit h4{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vinit .you{
+    margin-top: 9%;
+    margin-left: 15%;
+    color: blue;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vinit .you:hover{
+    transition: 0.5s;
+    color: orange;
+}
+
+.lucifer{
+    display: flex;
+    margin-top: 0;
+}
+
+.lucifer h3{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -0%;
+    margin-left: 5%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lucifer h3:hover{
+    color: rgba(32, 12, 212,0.6);
+    transition: 0.5s
+}
+
+.facebook{
+    margin-left: -11%;
+}
+
+.finger h3{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cool{
+    margin: 0;
+    padding: 0;
+}
+
+.dude{
+    position: absolute;
+    width: 100%;
+    height: 14%;
+    left: 0;
+    top: 549.7%;
+    background: #262626;
+    border-top: 1px solid rgb(225,225,225,0.9);
+}
+
+.develop{
+    margin-top: 1.5%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.margin-top{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.copy h3{
+    color: rgb(225,225,225,0.9);
+    font-size: 18px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.poppy{
+    display: flex;
+    cursor: pointer;
+}
+
+.poppy h3{
+    color: rgb(225,225,225,0.9);
+    font-size: 18px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.poppy h4{
+    line-height: 10px;
+    color: rgb(225,225,225,0.9);
+    font-size: 18px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.poppy h4:hover{
+    color: rgba(69, 52, 228, 0.8);
+    transition: 0.5s;
+}
